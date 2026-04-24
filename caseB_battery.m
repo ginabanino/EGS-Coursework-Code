@@ -1,13 +1,5 @@
 clear; clc; close all;
 
-%% CASE B: GRID BATTERY ARBITRAGE
-% Simple final version:
-% 1) LP optimisation with degradation
-% 2) Simple heuristic comparison
-% 3) SOC figure
-% 4) Cumulative profit figure
-% 5) Degradation sensitivity figure
-
 %% Load data
 data = readtable('caseB_grid_battery_market_hourly.csv');
 
